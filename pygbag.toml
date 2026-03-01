@@ -1,0 +1,20 @@
+[pygbag]
+# Entry point for the game
+app = "main.py"
+
+# Python version to use with Pyodide
+python_version = "3.11"
+
+# Title shown in the browser tab
+title = "Miner Dungeon RPG - Raids"
+
+# Assets to include in the web build (all image files next to main.py)
+assets = [
+    "background.png",
+    "miner.png",
+    "bat.png",
+    "diamond.png",
+    "emerald.png",
+    "ruby.png",
+    "sapphire.png",
+]
